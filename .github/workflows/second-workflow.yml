@@ -1,0 +1,10 @@
+name: second-wf
+on: [workflow_dispatch]
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first job
+        run: |
+            echo "rouh"
+            echo "aa"
